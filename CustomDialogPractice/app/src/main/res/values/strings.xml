@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CustomDialogPractice</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="score">UserScore</string>
+    <string name="Evolute">Evolute</string>
+    <string-array name="subfactors">
+        <item>Sub-factor1</item>
+        <item>Sub-factor2</item>
+        <item>Sub-factor3</item>
+        <item>Sub-factor4</item>
+        <item>Sub-factor5</item>
+        <item>Sub-factor6</item>
+        <item>Sub-factor7</item>
+        <item>Sub-factor8</item>
+        <item>Sub-factor9</item>
+        <item>Sub-factor10</item>
+    </string-array>
+    <string-array name="Options">
+        <item>Option1</item>
+        <item>Option2</item>
+        <item>Option3</item>
+        <item>Option4</item>
+        <item>Option1</item>
+        <item>Option2</item>
+        <item>Option3</item>
+        <item>Option4</item>
+        <item>Option1</item>
+        <item>Option2</item>
+    </string-array>
+</resources>
