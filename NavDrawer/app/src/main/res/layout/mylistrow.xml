@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- My notes:
+
+    Purpose of this layout:
+    This layout is specifically used to give a default form for our List items.
+    -> Use this layout only if you want to change anything in the appearance of your custom list view
+       for your navigation Drawer (in this case)
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/listicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_margin="11dp"
+        />
+
+    <TextView
+        android:id="@+id/listitemtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_marginLeft="58dp"
+        android:textColor="#000000"
+        android:layout_marginTop="11dp"
+        android:padding="3dp"/>
+</RelativeLayout>

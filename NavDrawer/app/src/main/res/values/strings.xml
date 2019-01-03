@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NavDrawer</string>
+
+    <string name="openDrawer">Slide Menu Opened</string>
+    <string name="closeDrawer">Slide Menu Closed</string>
+    <string name="itemClicked">Menu Item at position \" + position + \" clicked.</string>
+    <string name="toast3">You clicked item no.</string>
+    <string name="avatarDesc">User1</string>
+
+    <!-- I am naming Navigation Drawer above as "Slide Menu"
+           I learnt from a YouTube author "slidenerd" that
+           these strings are useful for user's accessibility.
+           Example: for Blind people, or people with problems of
+           eyesight. So to make things more simpler, I kept
+           "Slide Menu" instead of a android-technical-term
+           "Navigation Drawer"-->
+    s
+    <string-array name="navDrawer">
+        <item>Timeline</item>
+        <item>Stuff</item>
+    </string-array>
+</resources>
