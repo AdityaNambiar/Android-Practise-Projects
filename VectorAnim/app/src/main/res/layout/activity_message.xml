@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    app:background="@drawable/f1"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent">
+
+    <TextView app:textSize="55dp"
+        app:textStyle="bold|italic"
+        app:textColor="@color/PINK"
+        app:textColorHighlight="@color/black"
+        app:layout_gravity="bottom|center"
+        app:id="@+id/textView"
+        app:padding="10dp"
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:text="@string/happy_birthday"
+        app:fontFamily="cursive" />
+</FrameLayout>

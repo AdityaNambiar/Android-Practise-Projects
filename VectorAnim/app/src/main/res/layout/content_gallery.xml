@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    app:id="@+id/gallery"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent">
+    <GridView app:id="@+id/gridView" app:padding="8dp" app:layout_width="match_parent" app:layout_height="match_parent" app:horizontalSpacing="20dp" app:verticalSpacing="10dp" app:columnWidth="100dp" app:numColumns="auto_fit" />
+</FrameLayout>

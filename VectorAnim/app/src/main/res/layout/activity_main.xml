@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res/android"
+    app:orientation="vertical"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent">
+
+    <FrameLayout app:id="@+id/mainContentWrap"
+        app:visibility="visible"
+        app:layout_width="match_parent"
+        app:layout_height="match_parent">
+
+        <ImageView app:id="@+id/mainContent"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="80dp"
+            app:layout_marginTop="150dp"
+            app:src="@drawable/femalewithouthand" />
+
+        <LinearLayout app:id="@+id/maleBody"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="84dp"
+            app:layout_marginTop="152dp">
+
+            <ImageView app:id="@+id/body"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/malebody" />
+
+        </LinearLayout>
+
+        <LinearLayout app:id="@+id/femaleBody"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="81dp"
+            app:layout_marginTop="152dp">
+
+            <ImageView app:id="@+id/fbody"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/femalebody" />
+
+        </LinearLayout>
+
+        <LinearLayout app:id="@+id/imgAnim"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="92dp"
+            app:layout_marginTop="169dp">
+            <ImageView app:id="@+id/m_rHand_iv"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/hand" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/imgAnim2"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="132dp"
+            app:layout_marginTop="172dp">
+            <ImageView app:id="@+id/f_lHand_iv"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/fhand"
+                app:rotation="11.0" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/maleWithoutHand"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="84dp"
+            app:layout_marginTop="152dp">
+            <ImageView app:id="@+id/mWHand"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/malewithouthand" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/femaleWithoutHand"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="81dp"
+            app:layout_marginTop="152dp">
+            <ImageView app:id="@+id/fWHand"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/femalewithouthand" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/gift"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="142dp"
+            app:layout_marginTop="247dp">
+            <ImageView app:id="@+id/giftiv"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/ic_card"
+                app:rotation="11.0" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/giftLarge"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="142dp"
+            app:layout_marginTop="247dp">
+            <ImageView app:id="@+id/giftivLarge"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/ic_card_large"
+                app:rotation="11.0" />
+        </LinearLayout>
+        <LinearLayout app:id="@+id/giftopen"
+            app:visibility="gone"
+            app:layout_width="wrap_content"
+            app:layout_height="wrap_content"
+            app:layout_marginLeft="70dp"
+            app:layout_marginTop="180dp">
+            <ImageView app:id="@+id/giftivOpen"
+                app:layout_width="wrap_content"
+                app:layout_height="wrap_content"
+                app:src="@drawable/ic_gift_open_t"
+                app:rotation="11.0" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
